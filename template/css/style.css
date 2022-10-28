@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Jura:wght@300&family=Lobster&family=Mingzat&family=Pacifico&family=Poppins:wght@100&family=Yellowtail&display=swap');
+body{
+margin: 0;
+padding: 0;
+font-family: 'Mingzat', sans-serif;
+}
+header {
+    background-image:linear-gradient(rgba(97, 76, 55, 0.4),rgba(51, 93, 100, 0.8)),url("../image/Four\ Seasons.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  height: 100vh;
+}
+nav{
+    background-color: rgba(45, 48, 49, 0.623);
+}
+.text{
+    transform: translateY(130%);
+    margin-bottom:100px ;
+}
+.accomodation .item img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.accomodation img{
+    width: 350px;
+    height: 250px;
+    transition: all 0.3s linear;
+}
+.second{
+    background-image:linear-gradient(rgba(16, 13, 26, 0.9),rgba(16, 13, 26, 0.9)),url("../image/La\ semaine\ .jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+.second .item2 {
+background-color: rgba(148, 160, 161, 0.3);
+text-align: left;
+}
+.second p {
+    font-size: 18px;
+    line-height: 20px;
+    word-spacing: 3px;
+    font-family: 'Poppins', sans-serif;
+}
+.second .container{
+    width: 85%;
+}
+ i{
+    font-size: 18px;
+    padding: 20px;
+    color: orange;
+}
+.bgcolor{
+    background-color: rgba(11, 94, 133, 0.7);
+}
+#Btn{
+    width: 45px;
+    height: 45px;
+    border:none;
+    position: fixed;
+    bottom:30px;
+    right: 30px;
+    font-size: 30px;
+    font-weight: 400;
+    cursor: pointer;
+    display: none;
+  }
