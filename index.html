@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Royal Hotel</title>
+        <link rel="icon" href="template/image/favicon.png" type="template/image/png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Jura:wght@300&family=Lobster&family=Pacifico&family=Yellowtail&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="template/css/bootstrap.min.css">
+        <link rel="stylesheet" href="template/fontawesome-free-5.15.4-web/css/all.min.css">
+        <link rel="stylesheet" href="template/css/style.css">
+    </head>
+    <body>
+        <body class="text-center">
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-light p-2 fixed-top" id="navbar">
+                    <a class="navbar-brand logo_h" href="index.html"><img src="template/image/logo-2.png" alt=""></a>
+                    <button class="navbar-toggler bg-warning" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon "></span>
+                      </button>
+                    <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav nav_menu ml-auto">
+                        <li><a class="nav-link text-light active" href="#">Home </a>
+                        </li>
+                        <li class="nav-item "><a class="nav-link text-light " href="#service">Services</a>
+                        </li>
+                        <li class="nav-item "><a class="nav-link text-light" href="#about">About us</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link text-light" href="#gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item submenu dropdown">
+                            <a href="#" class="nav-link dropdown-toggle text-light" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                                <li class="nav-item"><a class="nav-link" href="blog-single.html">Blog Details</a></li>
+                            </ul>
+                        </li> 
+                        <li class="nav-item "><a class="nav-link text-light " href="#">Elemests</a>
+                        </li>
+                        <li class="nav-item " ><a class="nav-link text-light" href="#contacts">Contact</a>
+                        </li>
+                        </ul>
+                </nav>
+                <div class="clearfix"></div>
+                <div class="container ">
+                    <div class=" text text-white">
+                        <h6 class="">Away from monotonous life</h6>
+                        <h2>Relax Your Mind</h2>
+                        <p>If you are looking at blank cassettes on the web, you may be very confused at the<br> difference in price. You may see some for as low as $.17 each.</p>
+                        <a href="#" class="btn btn-warning text-light">Get Started</a>
+                    </div>
+                </div>
+              </header>
+               <section class="accomodation m-5" id="gallery">
+                   <div class="mb-5">
+                        <h1  class="">Hotel Accomodation</h1>
+                        <p>We all live in an age that belongs to the young at heart. Life that is becoming extremely fast</p>
+                   </div> 
+                   <div class="container">
+                        <div class="row">
+                            <div class="item col-md-3 col-sm-6">
+                                <div class="overflow-hidden rounded">
+                                    <img src="template/image/room 1.jpg" class="img-fluid">
+                                </div> 
+                                <h4 class="mt-4"> Deluxe Room </h4>
+                                <h5 class="mb-5"> $550 <small>/night</small> </h5>
+                            </div>
+                            <div class="item  col-lg-3 col-sm-6">
+                                <div class="overflow-hidden rounded">
+                                    <img src="template/image/Alila — Solo, Indonesia.jpg" class="img-fluid">
+                                </div>
+                                <h4 class="mt-4">Double Room</h4>
+                                <h5 class="mb-5">$600<small>/night</small></h5>
+                            </div>
+                            <div class="item col-md-3 col-sm-6"> 
+                                <div class="overflow-hidden rounded">
+                                    <img src="template/image/room .jpg" class="img-fluid">
+                                </div>
+                                <h4 class="mt-4">Double Deluxe Room </h4>
+                                <h5 class="mb-5"> $700 <small>/night</small> </h5> 
+                            </div>
+                            <div class="item col-md-3 col-sm-6">
+                                <div class="overflow-hidden rounded">
+                                    <img src="template/image/room 3.jpg" class="img-fluid rounded" >
+                                </div> 
+                                <h4 class="mt-4">Economy Double</h4>
+                                <h5 class="mb-5"> $500 <small>/night</small> </h5>
+                            </div>
+                        </div>
+                    </div> 
+                    <button type="button" class="btn btn-warning text-light p-3" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">BOOK YOUR ROOM</button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Book Now</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <label  class="col-form-label">Full Name</label>
+                                            <input type="text" class="form-control">
+                                        
+                                            <label class="col-form-label">Room Type</label>
+                                            <select class="form-control" >
+                                                <option>Economy Double</option>
+                                                <option>Double Room</option>
+                                                <option>Single Room</option>
+                                            </select>
+                                        
+                                            <label  class="col-form-label">Date</label>
+                                            <input type="datetime-local" class="form-control">
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Send</button>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </section>     
+                <section class="second" id="service">
+                    <div class="container ">
+                            <div class="p-5">
+                                <h2 class="pt-5">Royal Facilities</h2>
+                                <p class="text-center">Who are in extremely love with eco friendly system.</p>
+                            </div>
+                            <div class="row">
+                                <div class=" col-lg-4 col-md-6">
+                                    <div class="item2 m-1 p-3 border rounded">
+                                        <h4 class="p-2"><i class="fas fa-utensils"></i>Restaurant</h4>
+                                        <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="item2 m-1 p-3 border rounded">
+                                        <h4 class="p-2"><i class="fas fa-biking"></i>Sports CLub</h4>
+                                        <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="item2 m-1 p-3 border rounded">
+                                        <h4 class="p-2"><i class="fas fa-tshirt"></i>Swimming Pool</h4>
+                                        <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="item2 m-3 p-2 border rounded">
+                                        <h4 class="p-2"><i class="fas fa-car"></i>Rent a Car</h4>
+                                        <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="item2 m-3 p-2 border rounded">
+                                        <h4 class="p-2"><i class="fas fa-dumpster"></i>Gymnesium</h4>
+                                        <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </section>
+                <section class="third" id="about">
+                    <div class="container p-5 text-left">
+                        <div class="row pt-5">
+                            <div class="col-md-6 ">
+                                <h2 class="pt-4">About Us <br>Our History<br>Mission & Vision</h2>
+                                <p class="text-secondary pt-3">Spend a good time while adhering to morals and lrgal regulations ,</p>
+                                <p class="text-secondary">don’t make fun of each other .</p>
+                                <a href="#" class="btn btn-info text-light">Request custom price</a>
+                            </div>
+                            <div class="col-md-6">
+                                <img class="img-fluid shadow-lg" src="template/image/La semaine .jpg">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="text-light m-auto bg-dark p-4 " id="contacts"> 
+                    <h2 class="mb-4">Contacts</h2>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt"></i>23 Street, Alexandria, Egypt</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt"></i>+012 345 67890</p>
+                    <p class="mb-2"><i class="fa fa-envelope"></i>royal-master@gmail.com</p>
+                    <div class="d-flex justify-content-center">
+                        <a class="btn btn-social" href="https://twitter.com/home"><i class="fab fa-twitter text-info"></i></a>
+                        <a class="btn btn-social" href="https://www.facebook.com"><i class="fab fa-facebook-f text-primary "></i></a>
+                        <a class="btn btn-social" href="https://www.youtube.com"><i class="fab fa-youtube text-danger"></i></a>
+                        <a class="btn btn-social" href="https://www.linkedin.com"><i class="fab fa-linkedin-in text-info"></i></a>
+                    </div>
+                </section>
+                <button class=" btn btn-warning rounded position-fixed text-light text-center" id="Btn"> ^ </button>
+        <script src="template/js/jquery.slim.min.js"></script>
+        <script src="template/js/popper.min.js"></script>
+        <script src="template/js/bootstrap.min.js"></script>
+        <script src="template/js/script.js"></script>
+    </body>
+</html>
